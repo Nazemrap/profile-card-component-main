@@ -25,7 +25,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ![](./screenshot.jpg)
 
 - Solution URL: https://github.com/Nazemrap/profile-card-component-main
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://nazemrap.github.io/profile-card-component-main/
 
 ## My process
 
