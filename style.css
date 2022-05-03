@@ -1,0 +1,94 @@
+:root {
+  --cl--dark-cyan: hsl(185, 75%, 39%);
+  --cl--dark-desaturated-blue: hsl(229, 23%, 23%);
+  --cl--grayish-blue: hsl(227, 10%, 46%);
+  --cl--dark-gray: hsl(0, 0%, 59%);
+  --ff-kumbh: "Kumbh Sans", sans-serif;
+  --radius: 23px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.125rem;
+  font-family: var(--ff-kumbh);
+  font-weight: 700;
+  text-align: center;
+  color: var(--cl--dark-desaturated-blue);
+}
+
+span {
+  color: var(--cl--grayish-blue);
+  font-weight: 400;
+}
+
+.detail {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+main {
+  position: relative;
+  background-color: var(--cl--dark-cyan);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: white;
+  height: 23.4375;
+  max-width: 21.875;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: var(--radius);
+  z-index: 1;
+}
+
+.profil-picture {
+  border-radius: 50%;
+  border: solid 10px white;
+  transform: translateY(-50%);
+}
+.name {
+  transform: translateY(-100%);
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.line {
+  transform: translateY(-35px);
+}
+
+/* background patern */
+
+.card-patern {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.top-patern {
+  align-self: start;
+  transform: translate(12%, -20%);
+}
+
+.bot-patern {
+  align-self: end;
+  justify-self: end;
+  transform: translate(-12%, 20%);
+}
+
+/* 
+- Font size (name and stats): 18px */
